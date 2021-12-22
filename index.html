@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IsCream Grapes Burger</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|3d-float"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+    />
+
+    <link rel="stylesheet" href="game.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="font-effect-shadow-multiple">IsCream,Grapes &amp; Burger</h2>
+      <div class="image">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/6321/6321888.png"
+          title="IsCream"
+          onclick="startGame('IsCream')"
+        />
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/5508/5508474.png"
+          title="Grapes"
+          onclick="startGame('Grapes')"
+        />
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png"
+          title="Burger"
+          onclick="startGame('Burger')"
+        />
+      </div>
+      <p id="winner">Choose Your Food</p>
+      <div id="score">
+        <!-- <span class="sides">User : 0</span>
+        <span class="sides">Computer : 0</span> -->
+      </div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
